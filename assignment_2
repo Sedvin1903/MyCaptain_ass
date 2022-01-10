@@ -1,0 +1,13 @@
+""" Assignment 2 """
+# Write commands to open app using terminal 
+
+Command :   start msedge  # To open microsoft edge browser in my PC
+
+Output:
+
+Microsoft Windows [Version 10.0.19043.1415]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Dell>start msedge
+
+C:\Users\Dell>
