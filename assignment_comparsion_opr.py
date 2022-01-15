@@ -30,7 +30,7 @@ x += y
 print(" Set - 4:",x)
 
 #  -=
-print("\nSUBTRACTION : - \n")
+print("\nSUBTRACTION : -  \n")
 x,y = 9,5
 x -= y
 print(" Set - 1:",x)
