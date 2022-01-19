@@ -38,7 +38,7 @@ print("\n")
 
 # get()
 d = Car.get("model")
-print("Key of \'model\':",d)
+print("Value  of key \'model\':",d)
 print("\n")
 
 # items()
