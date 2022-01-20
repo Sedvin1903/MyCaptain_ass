@@ -11,27 +11,26 @@ Original file is located at
 # Write a Python Program for printing the letters in the string in decreasing order of frequency.
 
 def most_frequent(s):
-  d = {}
-  s = list(s)
+    d = {}
+    s = list(s)
+    for i in s:
+        if ( i in d):
+            d[i] = d[i]+1 
+        else:
+            d[i] = 1 
+    l = reversed(sorted(d.values()))
+    d1 = {}
   
-  for i in s:
-    if ( i in d):
-      d[i] = d[i]+1 
-    else:
-      d[i] = 1 
-  l = reversed(sorted(d.values()))
-  d1 = {}
-  
-  for v in l:
-    for k,j in d.items():
-      count = 1
-      if( v == j and count == 1 ):
-        d1.setdefault(k,v)
-        count = count + 1
+    for v in l:
+        for k,j in d.items():
+            count = 1
+            if( v == j and count == 1 ):
+                d1.setdefault(k,v)
+                count = count + 1
   
   
-  for k,v in d1.items(): 
-    print( k , v , sep="=",end = " " )
+    for k,v in d1.items(): 
+        print( k , v , sep="=",end = " " )
   
 
   
