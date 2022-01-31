@@ -1,11 +1,9 @@
 # Web Scrapping
 """   my_captain_Assignment -7   """
 
-from cgi import print_environ
 import requests
 from bs4 import BeautifulSoup as bs
 
-# https://www.swiggy.com/collections/46147?type=rcv2
 
 swig_url = ["https://www.flipkart.com/mobiles/~cs-peapbg1n6e/pr?sid=tyy%2C4io&collection-tab-name=Motorola+G31&param=5893&otracker=clp_banner_2_31.bannerX3.BANNER_mobile-phones-store_ILSWZ2597MY0&fm=neo%2Fmerchandising&iid=M_61d497d7-e85c-4052-9709-18176b34989c_31.ILSWZ2597MY0&ppt=clp&ppn=mobile-phones-store&ssid=3xdnr0lx6o0000001643616713434&sort=price_asc"]
 
