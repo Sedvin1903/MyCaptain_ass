@@ -1,8 +1,11 @@
-# Web Scrapping
+## Web Scrapping
+
+"""   my_captain_Assignment - 7   """
 
 import requests
 import pandas as pan
 from bs4 import BeautifulSoup as bs
+
 
 
 # https://www.swiggy.com/collections/46147?type=rcv2
